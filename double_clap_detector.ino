@@ -24,10 +24,9 @@ void loop() {
     unsigned long startTime = millis();
     while(digitalRead(2)==0){}
     unsigned long Time = millis() - startTime;
-    if(Time<400){ 
-      IsDoubleClap=HIGH;
-    }
+    if(Time<400) IsDoubleClap=HIGH; 
   }
+  
   digitalWrite(3, IsDoubleClap);
   delay(1000);
   IsDoubleClap = LOW;
