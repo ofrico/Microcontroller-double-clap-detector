@@ -1,7 +1,9 @@
 /*
-  Double clap detctor
+  Microcontroller double clap detctor
   
   Made by ofrico
+
+  26/5/2026
 
   Connect DO of your sound sensor to pin 2 of your microcontroller,
   connect a LED using a 220 ohm resistor to pin 3.
